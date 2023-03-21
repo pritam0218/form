@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+header{
+    background-color: black;
+    padding: 60px;
+}
+header h1 {
+    color: white;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.year{
+    color: white;
+    text-align: center;
+}
+.Tribute{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.Tribute blockquote{
+    text-align: justify;
+    font-size: 50px;
+    margin: 10px;
+}
+.Tribute img{
+    height: 150px;
+    width: 140px;
+   margin-left: auto;
+   margin-right: 1px;
+}
+.bio{
+    background-color: black;
+    padding: 60px;
+    border: 5px solid white;
+    margin: 10px;
+}
+.bio h2,p{
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+hr{
+    margin: 10px;
+}
