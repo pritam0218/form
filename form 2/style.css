@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    background-color: aliceblue;
+    height: 500px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    border-radius: 10px;
+
+}
+.head{
+    background-color: rgb(122, 235, 150);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 10px;
+}
+fieldset{
+    margin: 10px;
+    color: green;
+}
+#msg {
+    resize: none;
+}
+input{
+    padding: 10px;
+    width: 350px;
+}
+button{
+    background-color: rgb(122, 235, 150);
+    height: 48px;
+    width: 70px;
+    margin-left: 10px;
+    border-radius: 10px;
+    transition: width 4s ;
+}
+button:hover{
+    width: 100px;
+}
+body{
+    background-color: rgb(139, 179, 149);
+}
